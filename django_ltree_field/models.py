@@ -48,7 +48,7 @@ class AbstractAutoNode(models.Model):
         ]
         ordering: ClassVar = ["path"]
 
-    type MoveTarget = Literal[NotProvided.NOT_PROVIDED] | Self | tuple[int, ...]
+    MoveTarget = Literal[NotProvided.NOT_PROVIDED] | Self | tuple[int, ...]
 
     def move(
         self,
