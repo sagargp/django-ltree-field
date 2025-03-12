@@ -12,7 +12,7 @@ from django.contrib.postgres.indexes import GistIndex
 import enum
 
 
-type Path = tuple[int, ...]
+Path = tuple[int, ...]
 
 
 class NotProvided(enum.Enum):
