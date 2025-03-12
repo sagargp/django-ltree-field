@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from contextlib import suppress
-from tkinter import NO
 from typing import ClassVar, Literal, Self
 from django.db.models import QuerySet
 from django_ltree_field.fields import IntegerLTreeField
